@@ -21,14 +21,14 @@ class Margherita(Pizza):
         Parameters
         ----------
         size : str
-            Initial size of the pizza
+            Initial size of the Margherita pizza
 
         Attributes
         ----------
         size : str
-            Size of the pizza
-         ingredients : list
-            Ingredients of the pizza
+            Size of the Margherita pizza
+        ingredients : list
+            Ingredients of the Margherita pizza
         """
         super().__init__(size)
 
@@ -43,14 +43,14 @@ class Pepperoni(Pizza):
         Parameters
         ----------
         size : str
-            Initial size of the pizza
+            Initial size of the Pepperoni pizza
 
         Attributes
         ----------
         size : str
-            Size of the pizza
-         ingredients : list
-            Ingredients of the pizza
+            Size of the Pepperoni pizza
+        ingredients : list
+            Ingredients of the Pepperoni pizza
         """
         super().__init__(size)
 
@@ -66,14 +66,14 @@ class Hawaiian(Pizza):
         Parameters
         ----------
         size : str
-            Initial size of the pizza
+            Initial size of the Hawaiian pizza
 
         Attributes
         ----------
         size : str
-            Size of the pizza
-         ingredients : list
-            Ingredients of the pizza
+            Size of the Hawaiian pizza
+        ingredients : list
+            Ingredients of the Hawaiian pizza
         """
         super().__init__(size)
 
